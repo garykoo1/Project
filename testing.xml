@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "ebay">
+    <listeners>
+        <listener class-name = "Listener1"></listener>
+    </listeners>
+
+    <test name = "regression">
+        <classes>
+            <class name = "AmazonTest"></class>
+            <class name = "CostcoTest"></class>
+            <class name = "EbayTest"></class>
+            <class name = "GoogleTest"></class>
+            <class name = "KeyFoodsTest"></class>
+            <class name = "SauceDemoTest"></class>
+        </classes>
+    </test>
+</suite>
